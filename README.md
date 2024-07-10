@@ -75,7 +75,7 @@ class MyHomepageState extends State<MyHomepage> {
         child: Text(_name),  
         onPressed: () {  
            setState(() {  
-              _name = _name == "Sahil" ? "Vishal" : "Mayank";  
+              _name = _name == "naresh" ? "rohan" : "sumit ";  
            });  
          },  
       );  
