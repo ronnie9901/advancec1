@@ -27,6 +27,18 @@ https://github.com/ronnie9901/advancec1/assets/148763509/0deaf24d-a3c0-44af-b4c5
 
   </div>
 
+   
+  <div>
+<h1>1.4 Provider & Change Theme using Provider </h1>
+  <img  height= "550" src="https://github.com/ronnie9901/advancec1/assets/148763509/046787a9-a957-4d1b-bbe6-22c39ae59c9a"  />
+  <img  height= "550" src="https://github.com/ronnie9901/advancec1/assets/148763509/21c2896c-fde0-4eb0-a7f3-adec925b80c4"  />
+
+
+https://github.com/ronnie9901/advancec1/assets/148763509/97807189-8b56-4968-8962-f74a4cd66836
+
+
+  </div>
+
 
 # 1.3 Provider Tree
 
