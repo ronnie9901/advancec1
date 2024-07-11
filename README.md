@@ -40,6 +40,21 @@ https://github.com/ronnie9901/advancec1/assets/148763509/97807189-8b56-4968-8962
   </div>
 
 
+  <h1>1.5 Quotes Data Solving with Provider </h1>
+  <img  height= "550" src="https://github.com/ronnie9901/advancec1/assets/148763509/9eb43c34-ba96-4e24-a7f7-6d0a9a1f06ab"  />
+  <img  height= "550" src="https://github.com/ronnie9901/advancec1/assets/148763509/bc89b621-b56f-4c21-86a1-e5d3481f5860"  />
+
+
+
+
+
+https://github.com/ronnie9901/advancec1/assets/148763509/4c186988-7344-439f-bddc-976ce627708a
+
+
+
+  </div>
+
+
 # 1.3 Provider Tree
 
 ## 1) What is State?
