@@ -1,8 +1,19 @@
-import 'package:advancec1/main.dart';
+import 'package:advancec1/Screen/home/provider/introprovider.dart';
+import 'package:advancec1/Screen/home/provider/provider.dart';
+import 'package:advancec1/Screen/home/view/introscreen/first.dart';
+import 'package:advancec1/Screen/home/view/quote.dart';
+import 'package:advancec1/Screen/home/view/screen.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-void main() {
-  runApp( MyApp());
+bool theme=false;
+Future<void> main() async {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
+  // bool theme = sharedPreferences.getBool('theme')??false;
+
+  runApp(MyApp());
 }
 
 class MyApp extends StatefulWidget {
@@ -15,66 +26,35 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
-      themeMode: isdark?ThemeMode.light:ThemeMode.dark,
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(15.0),
-            child: Column(
+    return  ChangeNotifierProvider(
+        create: (BuildContext context) => introprovider(),
+        builder: (context, child) =>   MaterialApp(
+        // theme: ThemeData(
+        //     brightness: Brightness.light,
+        //   colorScheme: ColorScheme.light(
+        //     primary: Colors.amber,
+        //     onPrimary: Colors.pink,
+        //     secondary: Colors.blue,
+        //     onSecondary: Colors.green,
+        //   )
+        // ),
+        // darkTheme:  ThemeData(
+        //   brightness: Brightness.dark,
+        //     colorScheme: ColorScheme.dark(
+        //       primary: Colors.purple,
+        //       onPrimary: Colors.blue,
+        //       secondary: Colors.green,
+        //       onSecondary: Colors.redAccent,
+        //
+        //     )
+        // ),
+        // themeMode: Provider.of <homeproviderr>(context).isdark?ThemeMode.dark:ThemeMode.light,
 
-            mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text('Yo Man !',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30),),
-                Text('Its a Simple example of  ',style: TextStyle(color: Colors.grey,fontSize: 20),),
+        debugShowCheckedModeBanner: false,
 
-                Text('Dark Theme',style: TextStyle(
-                  color: Colors.grey,fontSize: 20
-                ),),
-                SizedBox(height: 100,),
-              InkWell(onTap: () {
-                setState(() {
-                  isdark=true;
-                });
-              },
-                child: Container(
-                    alignment: Alignment.center,
-                    height: 70,
-                    width: double.infinity,
-                    decoration: BoxDecoration(
-                      color: Colors.yellow,
-                      borderRadius: BorderRadius.circular(10)
-                    ),
-                    child: Text('Light Icon',style: TextStyle(letterSpacing: 1,fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),),
-                  ),
-              ),
-                SizedBox(height: 20,),
-                InkWell(onTap: () {
-                  setState(() {
-                    isdark=false
-                    ;
-                  });
-                },
-                  child: Container(
-                    alignment: Alignment.center,
-                    height: 70,
-                    width: double.infinity,
-                    decoration: BoxDecoration(
-                      color: Colors.redAccent,
-                      borderRadius: BorderRadius.circular(10)
-                    ),
-                    child: Text('Dark Icon',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white,letterSpacing: 1),),
-                  ),
-                )
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
+      home: firstpage(),
+
+    ));
   }
 }
 
