@@ -46,10 +46,7 @@ https://github.com/ronnie9901/advancec1/assets/148763509/97807189-8b56-4968-8962
 
 https://github.com/ronnie9901/advancec1/assets/148763509/4c186988-7344-439f-bddc-976ce627708a
   </div>
-![i1]()
-![h]()
-![i3]()
-![i2]()
+
 
   <div>
   <h1>1.5 Quotes Data Solving with Provider </h1>
@@ -62,6 +59,17 @@ https://github.com/ronnie9901/advancec1/assets/148763509/4c186988-7344-439f-bddc
 https://github.com/user-attachments/assets/eb0c05bd-4c67-4a82-b3e4-ae98243a6fd3
 
 
+
+
+  </div>
+
+![contact]()
+
+  <div>
+  <h1>1.6 Contact Us Page With Interaction </h1>
+  <img  height= "550" src="https://github.com/user-attachments/assets/94ad14a6-3c5b-4a55-8fac-2b2d37a6476d"  />
+ 
+   https://github.com/user-attachments/assets/b79d4c5e-a2e8-49a4-9f77-6b6ca07120ce
 
 
   </div>
