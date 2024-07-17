@@ -39,17 +39,37 @@ https://github.com/ronnie9901/advancec1/assets/148763509/97807189-8b56-4968-8962
 
   </div>
 
-
+<div>
   <h1>1.5 Quotes Data Solving with Provider </h1>
   <img  height= "550" src="https://github.com/ronnie9901/advancec1/assets/148763509/9eb43c34-ba96-4e24-a7f7-6d0a9a1f06ab"  />
   <img  height= "550" src="https://github.com/ronnie9901/advancec1/assets/148763509/bc89b621-b56f-4c21-86a1-e5d3481f5860"  />
 
-
-
-
-
 https://github.com/ronnie9901/advancec1/assets/148763509/4c186988-7344-439f-bddc-976ce627708a
+  </div>
 
+
+  <div>
+  <h1>1.5 Quotes Data Solving with Provider </h1>
+  <img  height= "550" src="https://github.com/user-attachments/assets/fd0c8659-3681-4e9f-af9a-35b65d3bb0e4"  />
+  <img  height= "550" src="https://github.com/user-attachments/assets/feccfe7b-53f5-4735-a056-3af5f1b42641"  />
+  <img  height= "550" src="https://github.com/user-attachments/assets/6fadecfa-17df-4efb-9651-b03cb2f34eaf"  />
+  <img  height= "550" src="https://github.com/user-attachments/assets/5961e45f-6206-4663-aff5-3f73bdd460c7"  />
+
+
+https://github.com/user-attachments/assets/eb0c05bd-4c67-4a82-b3e4-ae98243a6fd3
+
+
+
+
+  </div>
+
+![contact]()
+
+  <div>
+  <h1>1.6 Contact Us Page With Interaction </h1>
+  <img  height= "550" src="https://github.com/user-attachments/assets/94ad14a6-3c5b-4a55-8fac-2b2d37a6476d"  />
+ 
+   https://github.com/user-attachments/assets/b79d4c5e-a2e8-49a4-9f77-6b6ca07120ce
 
 
   </div>
