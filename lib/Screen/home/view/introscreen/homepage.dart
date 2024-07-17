@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           leading: IconButton(
               onPressed: () {
-              Navigator.pop(context);
+              SystemNavigator.pop();
               },
               icon: const Icon(
                 Icons.arrow_back,

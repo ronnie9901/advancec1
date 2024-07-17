@@ -1,10 +1,6 @@
 
-
-import 'dart:async';
-
 import 'package:advancec1/Screen/home/provider/introprovider.dart';
 import 'package:advancec1/Screen/home/view/introscreen/homepage.dart';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -24,7 +20,9 @@ class firstpage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Stack(
-        children:[ PageView(
+        children:[
+
+          PageView(
            controller: controller,
             onPageChanged: (index) {
               introfalse.pageIndex(index);
@@ -36,6 +34,8 @@ class firstpage extends StatelessWidget {
         buildColumn(name: 'Personal Desk Space', title: 'We Dont believe cubicle', img: 'assets/1.jpg'),
       ]
         ),
+
+       
           (introtrue.currentpage == 2)? Align(
             alignment: Alignment.bottomCenter,
             child: Padding(
@@ -58,11 +58,10 @@ class firstpage extends StatelessWidget {
                       onPressed: () {
                         Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => HomePage(),));
                         introfalse.removeScreen();
-
                       },
                       child:Text('start',style: TextStyle(color: Colors.white),)
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
@@ -128,41 +127,22 @@ class firstpage extends StatelessWidget {
             style: TextStyle(
                 color: Colors.black54, fontSize: 16, letterSpacing: 1),
           ),
-          // Padding(
-          //   padding: const EdgeInsets.only(left: 120, top: 60),
-          //   child: Row(
-          //     children: [
-          //       Padding(
-          //         padding: const EdgeInsets.all(8.0),
-          //         child: Container(
-          //           height: 10,
-          //           width: 15,
-          //           decoration: BoxDecoration(
-          //               color: Colors.teal,
-          //               borderRadius: BorderRadius.circular(5)),
-          //         ),
-          //       ),
-          //       Padding(
-          //         padding: const EdgeInsets.all(8.0),
-          //         child: Container(
-          //           height: 10,
-          //           width: 10,
-          //           decoration: BoxDecoration(
-          //               color: Colors.grey.shade400, shape: BoxShape.circle),
-          //         ),
-          //       ),
-          //       Padding(
-          //         padding: const EdgeInsets.all(8.0),
-          //         child: Container(
-          //           height: 10,
-          //           width: 10,
-          //           decoration: BoxDecoration(
-          //               color: Colors.grey.shade400, shape: BoxShape.circle),
-          //         ),
-          //       ),
-          //     ],
-          //   ),
-          // )
+          Padding(
+            padding: const EdgeInsets.only(top: 50,left: 100),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Container(margin: EdgeInsets.all(10),height: 10,width: 10,decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.black),),
+                    Container(margin: EdgeInsets.all(10),height: 10,width: 10,decoration: BoxDecoration(shape: BoxShape.circle,color: Colors.grey),),
+                    Container(margin: EdgeInsets.all(10),height: 10,width: 10,decoration: BoxDecoration(shape: BoxShape.circle,color: Colors.grey),)
+                  ],
+                ),
+              ],
+            ),
+          ),
+        
+
         ],
       );
   }

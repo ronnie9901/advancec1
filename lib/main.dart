@@ -1,6 +1,9 @@
 import 'package:advancec1/Screen/home/provider/introprovider.dart';
 import 'package:advancec1/Screen/home/provider/provider.dart';
+import 'package:advancec1/Screen/home/provider/providerlauncher.dart';
 import 'package:advancec1/Screen/home/view/introscreen/first.dart';
+import 'package:advancec1/Screen/home/view/introscreen/homepage.dart';
+import 'package:advancec1/Screen/home/view/launcher/launcher.dart';
 import 'package:advancec1/Screen/home/view/quote.dart';
 import 'package:advancec1/Screen/home/view/screen.dart';
 import 'package:flutter/material.dart';
@@ -27,7 +30,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return  ChangeNotifierProvider(
-        create: (BuildContext context) => introprovider(),
+        create: (BuildContext context) => launcherprovider(),
         builder: (context, child) =>   MaterialApp(
         // theme: ThemeData(
         //     brightness: Brightness.light,
@@ -52,7 +55,7 @@ class _MyAppState extends State<MyApp> {
 
         debugShowCheckedModeBanner: false,
 
-      home: firstpage(),
+      home:  launcher(),
 
     ));
   }
