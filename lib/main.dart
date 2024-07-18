@@ -1,6 +1,7 @@
 import 'package:advancec1/Screen/home/provider/introprovider.dart';
 import 'package:advancec1/Screen/home/provider/provider.dart';
-import 'package:advancec1/Screen/home/provider/providerlauncher.dart';
+import 'package:advancec1/Screen/home/provider/providerlauncher.dart';import 'package:advancec1/Screen/home/provider/authi.provider.dart';
+import 'package:advancec1/Screen/home/view/authication/authinatication.dart';
 import 'package:advancec1/Screen/home/view/introscreen/first.dart';
 import 'package:advancec1/Screen/home/view/introscreen/homepage.dart';
 import 'package:advancec1/Screen/home/view/launcher/launcher.dart';
@@ -30,7 +31,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return  ChangeNotifierProvider(
-        create: (BuildContext context) => launcherprovider(),
+        create: (BuildContext context) => FingerProvider(),
         builder: (context, child) =>   MaterialApp(
         // theme: ThemeData(
         //     brightness: Brightness.light,
@@ -52,13 +53,13 @@ class _MyAppState extends State<MyApp> {
         //     )
         // ),
         // themeMode: Provider.of <homeproviderr>(context).isdark?ThemeMode.dark:ThemeMode.light,
-
         debugShowCheckedModeBanner: false,
-
-      home:  launcher(),
+      home:  PhotoGallery(),
 
     ));
   }
 }
+
+
 
 bool isdark=true;
