@@ -62,14 +62,30 @@ https://github.com/user-attachments/assets/eb0c05bd-4c67-4a82-b3e4-ae98243a6fd3
 
 
   </div>
+![a1]()
+![a2]()
 
-![contact]()
+
 
   <div>
   <h1>1.6 Contact Us Page With Interaction </h1>
   <img  height= "550" src="https://github.com/user-attachments/assets/94ad14a6-3c5b-4a55-8fac-2b2d37a6476d"  />
  
    https://github.com/user-attachments/assets/b79d4c5e-a2e8-49a4-9f77-6b6ca07120ce
+  </div>
+
+
+
+   
+    
+
+    <div>
+  <h1>1.6 Contact Us Page With Interaction </h1>
+  <img  height= "550" src="https://github.com/user-attachments/assets/d6613505-d44d-4f72-8276-f1de67dcc436"  />
+   <img  height= "550" src="https://github.com/user-attachments/assets/b79a3f28-06f1-4254-8c71-e3c57b2c2434"  />
+ 
+
+https://github.com/user-attachments/assets/de69e67a-2221-424e-b390-b25e3240e288
 
 
   </div>
