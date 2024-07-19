@@ -21,6 +21,21 @@ https://github.com/ronnie9901/advancec1/assets/148763509/0deaf24d-a3c0-44af-b4c5
   </div>
 
   <div>
+    Key Components of a Stepper
+Stepper Widget: The main widget that contains all the steps.
+Step: Represents a single step in the stepper, which includes a title, content, and state.
+StepState: Defines the state of a step, such as indexed, editing, or complete.
+Attributes of Stepper
+currentStep: An integer that represents the index of the currently active step.
+onStepContinue: A callback function that is triggered when the "continue" button is pressed.
+onStepCancel: A callback function that is triggered when the "cancel" button is pressed.
+steps: A list of Step objects that define the steps in the stepper.
+type: Defines the type of stepper. It can be either StepperType.vertical or StepperType.horizontal.
+Attributes of Step
+    
+title: The title of the step.
+content: The content of the step, typically a form or text.
+isActive: A boolean that indicates whether the step is currently active.
 <h1> Stepper Demo  </h1>
   <img  height= "550" src="https://github.com/ronnie9901/advancec1/assets/148763509/839b7460-7538-4f8c-90f8-0caec3c766c4"  />
   <img  height= "550" src="https://github.com/ronnie9901/advancec1/assets/148763509/2bcee58f-3459-40d2-b5a5-8e8f83694857"  />
